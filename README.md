@@ -16,8 +16,6 @@ Define the value evaluation, value improvement and value iteration functions.
 Run the functions and display the results.
 
 ## POLICY IMPROVEMENT FUNCTION
-### Name: S V SHADHANASHREE
-### Register Number: 212223230202
 ```python
 def policy_improvement(V,P,gamma=1.0):
   Q=np.zeros((len(P),len(P[0])),dtype=np.float64)
